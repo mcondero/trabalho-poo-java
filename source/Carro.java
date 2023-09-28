@@ -54,6 +54,6 @@ public class Carro {
 
     public void ligarCarro() {
         System.out.println("Carro ligado.");
-        motor.ligar();
+        motor.ligarMotor();
     }
 }

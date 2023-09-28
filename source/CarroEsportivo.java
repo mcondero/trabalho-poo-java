@@ -1,8 +1,8 @@
 public class CarroEsportivo extends Carro {
     private double velocidadeMaxima;
 
-    public CarroEsportivo(String marca, String modelo, int ano, double velocidadeMaxima) {
-        super(marca, modelo, ano);
+    public CarroEsportivo(String marca, String modelo, int ano, Motor motor, double velocidadeMaxima) {
+        super(marca, modelo, ano, motor);
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
@@ -21,6 +21,6 @@ public class CarroEsportivo extends Carro {
     @Override
     public String toString() {
         return "Carro Esportivo:\nMarca: " + getMarca() + "\nModelo: " + getModelo() + "\nAno: " + getAno() +
-                "\nVelocidade Máxima: " + velocidadeMaxima;
+                "\nVelocidade Máxima: " + this.velocidadeMaxima;
     }
 }

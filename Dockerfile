@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk
+FROM openjdk
 WORKDIR /app
 COPY ./source/ /app
 RUN javac *.java
