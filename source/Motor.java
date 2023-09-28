@@ -11,4 +11,3 @@ public class Motor {
         System.out.println("Motor ligado.");
     }
 }
-
