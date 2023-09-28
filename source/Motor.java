@@ -7,6 +7,14 @@ public class Motor {
         this.potencia = potencia;
     }
 
+class Associacao
+{
+    public static void main (String[] args)
+    {
+        Carro carro = new Carro("Fusca");
+        Motor motor = new Motor("V8");
+    }
+    
     public void ligar() {
         System.out.println("Motor ligado.");
     }
