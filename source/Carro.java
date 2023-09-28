@@ -46,7 +46,7 @@ public class Carro {
 
     public void rodar(double distancia) {
         if (distancia > 0) {
-            quilometragem += distancia;
+            this.quilometragem += distancia;
         } else {
             System.out.println("A distância percorrida deve ser maior que zero.");
         }
